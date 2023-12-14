@@ -73,6 +73,7 @@ while not end_of_game:
 
     # Check guessed letter
     for i, letter in enumerate(chosen_word):
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[i] = guess
 
